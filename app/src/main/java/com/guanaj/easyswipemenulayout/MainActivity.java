@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             helper.getView(R.id.right_menu_2).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(MainActivity.this, "收藏", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "collect", Toast.LENGTH_SHORT).show();
                     EasySwipeMenuLayout easySwipeMenuLayout = helper.getView(R.id.es);
 
                     easySwipeMenuLayout.resetStatus();
